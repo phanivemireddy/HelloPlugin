@@ -9,5 +9,9 @@ namespace Plugin.HelloPlugin
     /// </summary>
     public class HelloPluginImplementation : IHelloPlugin
     {
+        public void SayHello()
+        {
+            Console.WriteLine("Hi");
+        }
     }
 }

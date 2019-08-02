@@ -6,5 +6,6 @@ namespace Plugin.HelloPlugin
 {
     public interface IHelloPlugin
     {
+        void SayHello();
     }
 }
